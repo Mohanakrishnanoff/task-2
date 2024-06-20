@@ -1,0 +1,16 @@
+windows oblects
+windows oblects contain the webpage and it appers on the client side 
+
+documents
+it shows the html documents on the loaded windows and it gives methods properties and manipulate th content of web page
+
+difference 
+Understanding how the window and document objects interact is crucial for effective web development:
+
+Global Context: JavaScript running in the browser operates within the window object's context, while HTML content and structure are accessed and manipulated via the document object.
+
+Event Handling: Events triggered by user interactions (like clicks or keypresses) are handled by the window object, but often involve manipulating elements within the document object.
+
+Asynchronous Loading: JavaScript code can access elements of the document only after it has been fully loaded. The DOMContentLoaded event on the document signals when the initial HTML document has been completely loaded and parsed.
+
+In conclusion, the window and document objects form the backbone of client-side web development with JavaScript. They provide essential methods, properties, and events to create dynamic and interactive webpages. Mastering these objects empowers developers to create rich and responsive user experiences on the web.
